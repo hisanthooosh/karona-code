@@ -1,0 +1,387 @@
+.editprofilepagemain {
+
+  margin: 0;
+
+  height: 100vh;
+
+  width: 100%;
+
+  position: relative;
+
+}
+
+.editprofilepagemain-inner {
+
+  width: 50%;
+
+  height: 100%;
+
+  position: absolute;
+
+  top: 0%;
+
+  left: 25%;
+
+  border: 1px solid black;
+
+}
+
+.backbtn-editprofilepage {
+  height: 5%;
+
+  display: flex;
+
+  align-items: center;
+
+}
+
+.editbackbtn {
+
+  height: 70%;
+
+  width: 5%;
+
+  font-size: 20px;
+
+  background-color: white;
+
+  border: 0px solid black;
+
+  border-radius: 30px;
+
+  margin-left: 3%;
+
+}
+
+.editbackbtn:hover {
+
+
+  background-color: rgb(234, 225, 225);
+
+
+}
+
+.editdiv2 {
+
+  height: 5%;
+
+  display: flex;
+
+  align-items: center;
+
+  margin-left: 10%;
+
+  font-size: 20px;
+
+}
+
+.editdiv3 {
+
+  height: 15%;
+
+  width: 100%;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  /* border: 1px solid black; */
+
+}
+
+.editdiv3-inner {
+
+  height: 90%;
+
+  width: 90%;
+
+  border-radius: 10px;
+
+  background-color: #efefef;
+
+  display: flex;
+
+
+}
+
+.editdiv3part1 {
+
+  width: 20%;
+
+  height: 100%;
+
+  /* border: 1px solid black; */
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+}
+
+.editdiv3part2 {
+
+  width: 60%;
+
+  height: 100%;
+
+  /* border: 1px solid black; */
+
+  padding-top: 3%;
+
+}
+
+.editdiv3part3 {
+
+  width: 20%;
+
+  height: 100%;
+
+  /* border: 1px solid black; */
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+}
+
+.dpedit {
+
+  height: 80%;
+
+  width: 70%;
+
+  border-radius: 50%;
+
+
+}
+
+.editpicbtn {
+
+  height: 40%;
+
+  width: 75%;
+
+  background-color: #1d9cf1cd;
+
+  border: 0px solid black;
+
+  border-radius: 10px;
+
+  color: white;
+
+}
+
+.editdiv4 {
+
+  height: 5%;
+
+  width: 100%;
+
+  margin-left: 10%;
+
+  margin-top: 3%;
+
+}
+
+.editdiv5 {
+
+  height: 5%;
+
+  width: 100%;
+
+  display: flex;
+
+  justify-content: center;
+
+}
+
+.editdiv5-inner {
+
+  height: 100%;
+
+  width: 90%;
+
+  border: 1px solid #c8c3c3;
+
+  background-color: #efefef;
+
+  border-radius: 10px;
+
+  outline: none;
+
+  padding-left: 2%;
+
+}
+
+.edit6 {
+
+  height: 5%;
+
+  width: 100%;
+
+  text-align: center;
+
+  font-size: small;
+
+  color: #b1abab;
+
+}
+
+.editdiv51 {
+
+  height: 10%;
+
+  width: 100%;
+
+  display: flex;
+
+  justify-content: center;
+
+}
+
+.editdiv51-inner {
+
+  height: 100%;
+
+  width: 90%;
+
+  border: 1px solid #c8c3c3;
+
+  background-color: white;
+
+  border-radius: 10px;
+
+  outline: none;
+
+  padding-left: 2%;
+
+}
+
+.gender {
+
+  height: 50%;
+
+  width: 90%;
+
+  outline: none;
+
+  border-radius: 10px;
+
+}
+
+.edit8
+
+{
+ 
+  border: 1px solid black;
+
+}
+
+.editsubmitgtn
+
+{
+
+height: 10%;
+ 
+width: 100%;
+
+position: relative;
+
+}
+
+.editsubmitbtn-inner
+
+
+{
+ 
+  height: 50%;
+
+  width: 30%;
+
+  border-radius: 10px;
+
+  border: 0px solid black;
+
+  background-color: #1d9cf1cd;
+
+  color: white;
+
+  position: absolute;
+
+  top: 10%;
+
+  left: 65%;
+
+}
+
+
+
+
+
+
+@media only screen and (max-width:480px) {
+
+  .editprofilepagemain-inner {
+
+    width: 100%;
+
+    height: 100%;
+
+    position: absolute;
+
+    top: 0%;
+
+    left: 0%;
+
+    bottom: 0%;
+
+    right: 0%;
+
+    border: 1px solid black;
+
+  }
+
+  .editpicbtn {
+
+    font-size: 50%;
+
+  }
+
+  .editdiv3 {
+
+    height: 10%;
+
+  }
+
+
+
+}
+
+@media only screen and (min-width : 426px) and (max-width:1024px) {
+
+
+
+  .editprofilepagemain-inner {
+
+    width: 100%;
+
+    height: 100%;
+
+    position: absolute;
+
+    top: 0%;
+
+    left: 0%;
+
+    border: 1px solid black;
+
+  }
+
+
+}

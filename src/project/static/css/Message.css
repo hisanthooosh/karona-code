@@ -1,0 +1,275 @@
+.chatmain {
+
+    height: 100vh;
+
+    width: 100%;
+
+    border: 1px solid black;
+
+    display: flex;
+
+}
+
+.c-s-1 {
+
+    border: 1px solid black;
+
+    height: 100%;
+
+    width: 5%;
+
+}
+
+.c-s-2 {
+
+    border: 1px solid black;
+
+    height: 100%;
+
+    width: 35%;
+
+}
+
+.c-s-3 {
+
+    border: 1px solid black;
+
+    height: 100%;
+
+    width: 60%;
+
+}
+
+.c-s-1-1 {
+
+    height: 13%;
+
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+
+.c-s-1-2 {
+
+    height: 10%;
+
+    width: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.c-s-1-1-inner {
+
+    height: 48%;
+
+
+}
+
+.c-s-1-1-inner-pic {
+
+    height: 100%;
+
+    width: 100%;
+
+}
+
+.c-s-2-1 {
+
+    height: 10%;
+
+    width: 100%;    
+
+    font-size: 100%;
+
+    font-weight: bold;
+
+    display: flex;
+
+    align-items: center;
+
+    padding-left: 5%;
+
+}
+
+.c-s-2-2 {
+
+height: 10%;
+
+width: 100%;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+}
+
+.c-s-2-2-inner
+
+{
+
+height: 75%;
+
+width: 90%;
+
+}
+
+.c-s-2-2-inner-bar
+
+{
+
+height: 100%;
+
+width: 100%;
+
+border-radius: 30px;
+
+outline: none;
+
+background-color: #efefef;
+
+padding-left: 5%;
+
+border: 0px solid black;
+
+}
+
+.c-s-2-3
+
+{
+
+height: 5%;
+
+width: 100%;
+
+display: flex;
+
+}
+
+.c-s-2-3-1
+
+{
+
+height: 100%;
+
+width: 33%;
+
+display: flex;
+
+justify-content: center;
+
+align-items: end;
+
+  
+
+}
+
+.c-s-2-3-1:hover
+{
+
+ border-bottom:1px solid #1d9cf1cd ;
+
+ color: #1d9cf1cd;
+
+}
+
+/* media queries for MOBILE */
+
+
+@media only screen and (max-width:480px) {
+
+
+    .c-s-1 {
+
+        border: 1px solid black;
+
+        height: 100%;
+
+        width: 0%;
+
+    }
+
+    .c-s-2 {
+
+        border: 1px solid black;
+
+        height: 100%;
+
+        width: 100%;
+
+    }
+
+    .c-s-3 {
+
+        border: 1px solid black;
+
+        height: 100%;
+
+        width: 0%;
+
+    }
+
+    .c-s-1-2{
+
+    width: 0px ;
+
+    height: 0px;
+
+    }
+
+
+}
+
+/* media queries for tAB */
+
+
+
+
+@media only screen and (min-width : 426px) and (max-width:1024px) {
+
+
+
+    .c-s-1 {
+
+        border: 1px solid black;
+
+        height: 100%;
+
+        width: 0%;
+
+    }
+
+    .c-s-2 {
+
+        border: 1px solid black;
+
+        height: 100%;
+
+        width: 100%;
+
+    }
+
+    .c-s-3 {
+
+        border: 1px solid black;
+
+        height: 100%;
+
+        width: 0%;
+
+    }
+
+
+}

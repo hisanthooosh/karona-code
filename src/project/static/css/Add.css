@@ -1,0 +1,232 @@
+.addmain {
+
+    height: 150vh;
+
+    width: 100%;
+
+    position: relative;
+
+}
+
+.backbtnadd {
+
+    height: 5%;
+
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    padding-left: 2%;
+
+}
+
+.addtitle {
+
+    height: 10%;
+
+    width: 100%;
+
+    font-size: 20px;
+
+    display: flex;
+
+    align-items: center;
+
+    padding-left: 3%;
+
+}
+
+.addtitlespl {
+
+    color: #1d9cf1cd;
+
+}
+
+.addformsec {
+
+    height: 110%;
+
+    width: 50%;
+
+    margin-top: 5%;
+
+    border: 0px solid black;
+
+    position: absolute;
+
+    left: 25%;
+
+    text-align: center;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    padding-top: 3%;
+
+
+}
+
+.addforminput {
+
+    height: 40px;
+
+    width: 70%;
+
+    margin-top: 5%;
+
+    border-radius: 10px;
+
+    outline: none;
+
+    border: 1px solid #c8c3c3;
+
+    background-color: #efefef;
+
+    padding-left: 3%;
+
+
+
+}
+
+.nextbtnadd {
+
+    height: 30px;
+
+    width: 60%;
+
+    margin-top: 3%;
+
+    border-radius: 30px;
+
+    border: 0px solid black;
+
+    background-color: #1d9cf1cd;
+
+    color: white;
+
+}
+
+.nextbtnadd:hover {
+
+    border: 1px solid #1d9cf1cd;
+
+    background-color: white;
+
+    color: black;
+
+}
+
+.addformgenderdiv {
+
+    margin-top: 3%;
+
+    /* border: 1px solid black; */
+
+    width: 90%;
+
+    margin-left: 4%;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    border: 1px solid #c8c3c3;
+
+    border-radius: 30px;
+
+}
+
+.addformgenderdiv1 {
+
+    font-size: 15px;
+
+    margin-top: 3%;
+
+    width: 70%;
+
+    text-align: center;
+
+
+    margin-left: 15%;
+
+    margin-bottom: 5%;
+
+
+}
+
+.checkbox {
+
+    display: flex;
+
+    justify-content: left;
+
+    margin-left: 40%;
+
+}
+
+
+
+@media only screen and (max-width:480px) {
+
+    .addformsec {
+
+        height: 95%;
+
+        width: 98%;
+
+        margin-top: 5%;
+
+        position: absolute;
+
+        left: 0%;
+
+        text-align: center;
+
+        margin-left: 1%;
+
+    }
+
+    .addforminput {
+
+        width: 95%;
+
+    }
+
+    .addformgenderdiv1 {
+
+        font-size: 15px;
+
+        margin-top: 7%;
+
+        width: 75%;
+
+        text-align: center;
+
+
+        margin-left: 10%;
+
+        margin-bottom: 5%;
+
+
+    }
+
+    .checkbox {
+
+        display: flex;
+
+        justify-content: left;
+
+        margin-left: 30%;
+
+    }
+
+
+
+
+
+
+
+}

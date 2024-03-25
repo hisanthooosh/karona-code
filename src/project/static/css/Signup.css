@@ -1,0 +1,1123 @@
+/* common css page for  */
+
+/* signup page */
+
+/* login page */
+
+/* registration page */
+
+/* forgot password page */
+
+/* verify email page */
+
+
+
+
+/* connom css for all pages */
+
+
+.body-signup {
+
+    height: 99vh;
+
+    width: 100%;
+
+    display: flex;
+
+}
+
+
+.body-part1 {
+
+    height: 100vh;
+
+    width: 60%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    position: relative;
+
+}
+
+.closebtndiv {
+
+    position: absolute;
+
+    top: 5%;
+
+    left: 5%;
+
+}
+
+
+.closebtn {
+
+    width: 40px;
+
+    height: 40px;
+
+    border-radius: 30px;
+
+    border: 0px solid white;
+
+    background-color: white;
+
+}
+
+.closebtn:hover {
+
+    background-color: rgba(237, 229, 229, 0.679);
+
+}
+
+.closebtntext {
+
+    margin-top: 30%;
+
+    font-size: 20px;
+
+}
+
+.body-part2 {
+
+    height: 100vh;
+
+    width: 40%;
+
+    position: relative;
+
+}
+
+.flower {
+
+    height: 40%;
+
+    width: 45%;
+
+    position: absolute;
+
+    top: 0%;
+
+    right: 0%;
+}
+
+.logo-sign {
+
+    height: 40%;
+
+    width: 35%;
+
+    position: absolute;
+
+    top: 20%;
+
+}
+
+.part2-title {
+
+    font-size: 40px;
+
+    margin-left: 1%;
+
+    margin-top: 15%;
+
+    margin-bottom: 5%;
+
+}
+
+.colorkarona {
+
+    font-size: 40px;
+
+    margin-left: 1%;
+
+    margin-top: 15%;
+
+    margin-bottom: 5%;
+
+    color: #1d9cf1cd;
+
+}
+
+.part2-formdiv {
+
+
+    border-radius: 2px;
+
+    height: 45%;
+
+}
+
+.part2-formdiv11 {
+
+    border-radius: 2px;
+
+    height: auto;
+
+}
+
+
+
+
+.part2-formdivreg {
+
+
+    border-radius: 2px;
+
+    height: 42%;
+
+}
+
+
+.part2-form:hover {
+
+    height: 100%;
+
+    width: 61%;
+
+}
+
+.part2-form {
+
+    width: 60%;
+
+    height: 99%;
+
+    text-align: center;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    border-radius: 3px;
+}
+
+.form-input {
+
+    width: 90%;
+
+    height: 15%;
+
+    border-radius: 5px;
+
+    outline: none;
+
+    border: 1px solid rgb(201, 182, 182);
+
+    margin-top: 15%;
+
+}
+
+
+
+.form-input1 {
+
+    width: 90%;
+
+    height: 15%;
+
+    border-radius: 5px;
+
+    outline: none;
+
+    border: 1px solid rgb(201, 182, 182);
+
+    margin-top: 4%;
+
+}
+
+.form-input:hover {
+
+    border: 1px solid #1d9cf1cd;
+
+    width: 91%;
+
+    height: 16%;
+
+}
+
+.form-otpdiv {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    height: 14%;
+
+    width: 90%;
+
+    margin-left: 4.7%;
+
+    margin-top: 5%;
+
+}
+
+.form-otpbtn {
+
+    width: 30%;
+
+    height: 100%;
+
+}
+
+.from-otpinput {
+
+    width: 65%;
+
+    height: 100%;
+
+}
+
+.otpbtn {
+
+    width: 99%;
+
+    height: 5.5vh;
+
+    border: 1px solid #1d9cf1cd;
+
+    border-radius: 5px;
+
+    background-color: white;
+
+    color: #1d9cf1cd;
+
+}
+
+.otpbtn:hover {
+
+    background-color: #1d9cf1cd;
+
+    border: 0px solid black;
+
+    color: white;
+
+}
+
+.form-inputotp {
+
+    width: 99%;
+
+    height: 96%;
+
+    border-radius: 5px;
+
+    outline: none;
+
+    border: 1px solid rgb(201, 182, 182);
+
+}
+
+.form-inputotp:hover {
+
+    border: 1px solid #1d9cf1cd;
+
+    width: 100%;
+
+    height: 100%;
+
+}
+
+.from-nextbtn {
+
+    width: 90%;
+
+    height: 6vh;
+
+    border: 1px solid #1d9cf1cd;
+
+    border-radius: 5px;
+
+    background-color: white;
+
+    color: #1d9cf1cd;
+
+    margin-top: 5%;
+
+}
+
+.from-nextbtn:hover {
+
+    background-color: #1d9cf1cd;
+
+    border: 0px solid black;
+
+    color: white;
+
+
+}
+
+.part2-alredy {
+
+    margin-left: 10%;
+
+    margin-top: 5%;
+
+}
+
+.loginlink {
+
+    text-decoration: none;
+
+}
+
+.loginlinkdiv {
+
+    text-decoration: none;
+
+    margin-top: 5%;
+
+    padding-left: 2%;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* css for reg page */
+
+
+
+
+
+
+
+.part2-title-reg {
+
+    font-size: 40px;
+
+    margin-left: -2%;
+
+    margin-top: 15%;
+
+}
+
+.part2-titlediv-reg {
+
+    display: flex;
+
+}
+
+.form-input-reg {
+
+    width: 90%;
+
+    height: 10%;
+
+    border-radius: 5px;
+
+    outline: none;
+
+    border: 1px solid rgb(201, 182, 182);
+
+    margin-top: 5%;
+
+}
+
+.form-input-reg:hover {
+
+    border: 1px solid #1d9cf1cd;
+
+    width: 91%;
+
+    height: 11%;
+
+
+}
+
+.part2-formdivreg
+
+{
+
+margin: 0% 2% 0% 2%;
+
+height: 400px;
+
+
+}
+
+.part2-titlediv-reg
+
+{
+
+ margin-left: 2%;
+
+}
+
+
+
+/* css for the login */
+
+
+
+
+
+
+
+.form-input11 {
+
+    width: 90%;
+
+    height: 15%;
+
+    border-radius: 5px;
+
+    outline: none;
+
+    border: 1px solid rgb(201, 182, 182);
+
+    margin-top: 4%;
+
+}
+
+.form-input11:hover {
+
+    width: 91%;
+
+    height: 15%;
+
+    border: 1px solid #1d9cf1cd;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries for MOBILE */
+
+
+@media only screen and (max-width:480px) {
+
+    .body-signup {
+        height: 150vh;
+        width: 100%;
+
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .body-part1 {
+
+        height: 50vh;
+        width: 100%;
+
+
+    }
+
+    .body-part2 {
+
+        height: 100vh;
+        width: 100%;
+
+
+    }
+
+    .part2-form {
+
+        width: 100%;
+
+        height: 100%;
+
+
+
+    }
+
+    .part2-title {
+
+        font-size: 20px;
+
+        margin-left: 1%;
+
+        margin-top: 15%;
+
+        margin-bottom: 5%;
+
+    }
+
+    .colorkarona {
+
+        font-size: 20px;
+
+    }
+
+    
+   
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* media queries for tAB */
+
+
+
+
+@media only screen and (min-width : 426px) and (max-width:1024px) {
+
+    .body-signup {
+        height: 100vh;
+        width: 100%;
+
+        display: flex;
+
+    }
+
+    .body-part1 {
+
+        height: 100vh;
+        width: 50%;
+
+
+    }
+
+    .body-part2 {
+
+        height: 100vh;
+        width: 50%;
+
+
+    }
+
+    .part2-form {
+
+        width: 100%;
+
+        height: 100%;
+
+
+
+    }
+
+    .form-input {
+
+        width: 90%;
+
+        height: 15%;
+
+        border-radius: 5px;
+
+        outline: none;
+
+        border: 1px solid rgb(201, 182, 182);
+
+        margin-top: 10%;
+
+    }
+
+    .part2-title {
+
+        font-size: 20px;
+
+        margin-left: 1%;
+
+        margin-top: 15%;
+
+        margin-bottom: 5%;
+
+    }
+
+    .colorkarona {
+
+        font-size: 20px;
+
+    }
+
+}
+
+
+.part2-titlediv {
+
+    display: flex;
+
+}
+
+
+/* css for otp form */
+
+.db-numberinputdiv {
+    display: flex;
+
+    padding-left: 7%;
+
+}
+
+.dbsecndcode {
+
+    width: 30%;
+
+}
+
+.dbotpinput {
+
+    width: 56%;
+
+    margin-left: 2%;
+
+}
+
+.dbotpdiv {
+
+    display: flex;
+
+    justify-content: center;
+
+    height: 15%;
+
+    margin-top: 5%;
+
+}
+
+.dbgetcodebtn {
+
+    width: 20%;
+
+
+}
+
+.dbsendcodebtn {
+
+    height: 100%;
+
+    width: 100%;
+
+    border-radius: 30px;
+
+
+}
+
+.dbgetcodebtn {
+
+    width: 100%;
+
+    height: 100%;
+
+
+
+}
+
+.dbverifyotp {
+
+    margin-top: 5%;
+
+}
+
+.db-numberinputdiv {
+
+    margin-top: 10px;
+
+}
+
+.space11 {
+
+    height: 5%;
+}
+
+#recap {
+
+
+
+    margin-top: 5%;
+
+    margin-left: 8%;
+
+}
+
+.popup {
+
+    color: red;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* css for india in login */
+
+
+
+
+
+
+
+
+.indialogo {
+
+    height: 10%;
+
+    width: 30%;
+
+    position: absolute;
+
+    top: 89%;
+
+    left: 0%;
+
+
+}
+
+
+
+
+
+
+
+
+/* css for verify otp */
+
+
+
+
+
+
+
+.db-numberinputdivverify {
+
+
+    padding-top: 5%;
+
+    padding-left: 3%;
+
+    padding-right: 3%;
+}
+
+
+.part2-titleverify {
+    margin-top: 20%;
+
+    font-size: 40px;
+
+    margin-left: 5%;
+
+
+}
+
+.colorkaronaverify {
+
+    font-size: 40px;
+
+    margin-left: 5%;
+
+    color: #1d9cf1cd;
+
+    margin-bottom: 5%;
+}
+
+
+
+
+/* css for signup page design */
+
+
+
+
+
+.indiaplace {
+    height: 40%;
+
+    width: 60%;
+
+    position: absolute;
+
+    top: 60%;
+
+    left: 0%;
+}
+
+.loginmobilepic1
+    {
+
+       
+
+       height: 0%;
+
+       width: 0%;
+
+    }
+
+    .women11
+
+    {
+
+       height: 0%;
+
+       width: 0%;
+
+    }
+
+
+@media only screen and (max-width:480px) 
+
+{
+
+    .loginmobilepic1
+    {
+
+      
+
+       height: 30%;
+
+       width: 100%;
+
+    }
+
+    .women11
+
+    {
+
+       height: 90%;
+
+       width: 90%;
+
+       border-bottom: 1px solid #1d9cf1cd;
+
+    }
+
+    .part2-form
+
+    {
+ 
+         width: 100%;
+
+
+    }
+
+    
+
+
+}
+
+.women {
+
+    height: 50%;
+    width: 75%;
+
+    position: absolute;
+
+    left: 0%;
+    
+    top: 50%;
+
+
+}
+
+.loginmobilepic {
+
+    
+
+    height: 0%;
+
+    position: relative;
+
+}
+
+.women1 {
+
+    position: absolute;
+
+    left: 0%;
+
+    bottom: 40%;
+
+    height: 0%;
+
+    width: 0%;
+
+    border-bottom: 1px solid #1d9cf1cd;
+
+}
+
+
+
+.fighter {
+
+    height: 40%;
+
+    width: 60%;
+
+    position: absolute;
+
+    top: 60%;
+
+    left: 0%;
+}
+
+.king {
+
+    height: 30%;
+
+    width: 45%;
+
+    position: absolute;
+
+    top: 70%;
+
+    left: 0%;
+}
+
+
+.women1king {
+
+    width: 0%;
+
+     border-bottom: 1px solid #1d9cf1cd;
+
+ }
+
+
+
+
+.god {
+
+    height: 45%;
+
+    width: 70%;
+
+    position: absolute;
+
+    top: 54.3%;
+
+    left: 5%;
+}
+
+@media only screen and (max-width:480px) {
+
+    .women {
+
+        height: 0%;
+        width: 0%;
+
+        position: absolute;
+
+        left: 0%;
+        top: 50%;
+
+
+    }
+
+    .flower {
+
+        height: 0%;
+
+        width: 0%;
+
+        position: absolute;
+
+        top: 0%;
+
+        right: 0%;
+    }
+
+    .body-part1 {
+
+
+        height: 0px;
+
+    }
+
+    .body-signup {
+
+        height: 99vh;
+
+        width: 100%;
+
+        display: flex;
+
+        position: relative;
+
+    }
+
+    .closebtndiv {
+
+        position: absolute;
+
+        top: 0%;
+
+        left: 5%;
+
+    }
+
+    .part2-titlediv {
+
+        justify-content: center;
+
+    }
+
+    .part2-formdiv {
+
+        margin: 0% 2% 0% 2%;
+
+    }
+
+    .loginmobilepic {
+
+        height: 50%;
+
+        position: relative;
+
+    }
+
+    .women1 {
+
+        position: absolute;
+
+        left: 0%;
+
+        bottom: 30%;
+
+        height: 90%;
+
+        width: 100%;
+
+        border-bottom: 1px solid #1d9cf1cd;
+
+    }
+
+    
+
+    .part2-form:hover {
+
+        height: 100%;
+    
+        width: 100%;
+    
+    }
+
+   
+
+
+
+}

@@ -1,0 +1,416 @@
+.profilepage {
+
+    height: 100vh;
+
+    width: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    background-color: whitesmoke;
+    
+}
+
+.profilesection {
+
+    height: 100%;
+
+    width: 65%;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    background-color: white;
+
+}
+
+.userinfosection {
+
+    height: 40%;
+
+    width: 100%;
+
+
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+}
+
+.userinfodiv1 {
+
+    height: 100%;
+
+    width: 40%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    position: relative;
+
+}
+
+.backbtn {
+
+    position: absolute;
+
+    top: 5%;
+
+    left: 5%;
+
+    width: 10%;
+
+    height: 10%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    border-radius: 50%;
+
+}
+
+.backbtn:hover {
+
+    background-color: rgba(238, 230, 230, 0.536);
+
+}
+
+.dp {
+
+    height: 50%;
+
+    width: 40%;
+
+    border-radius: 50%;
+
+}
+
+.userinfodiv2 {
+
+    height: 100%;
+
+    width: 60%;
+
+    margin-top: 2%;
+
+}
+
+.userinfodiv2head {
+
+    height: 15%;
+
+    width: 100%;
+
+    display: flex;
+
+    margin-top: 2%;
+
+
+}
+
+.userinfodiv2headbuttons {
+
+
+
+    height: 100%;
+
+    width: 25%;
+
+    margin: 0% 2% 0% 2%;
+
+}
+
+.userinfodiv2headbuttons1 {
+
+
+
+    height: 100%;
+
+    width: 30%;
+
+    display: flex;
+
+
+
+    align-items: center;
+
+}
+
+.userinfodiv2headbuttons4 {
+
+
+
+    height: 100%;
+
+    width: 10%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.editprofile {
+
+    height: 100%;
+
+    width: 100%;
+
+    border-radius: 5px;
+
+    background-color: #1d9cf1cd;
+
+    border: 0px solid black;
+
+    color: white;
+
+}
+
+.userfollowdiv {
+
+    height: 20%;
+
+    width: 100%;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-top: 5%;
+
+}
+
+.userfollowinfo {
+
+    height: 80%;
+
+    width: 30%;
+
+    display: flex;
+
+    align-items: center;
+
+    font-size: 100%;
+
+}
+
+.bio {
+
+    height: 50%;
+
+    width: 100%;
+
+
+
+}
+
+.userhighletssection {
+
+    height: 10%;
+
+
+
+}
+
+.profilenav {
+
+    height: 5%;
+
+    width: 100%;
+
+    border-top: 0.5px solid #1d9cf1cd;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.profilenavbtn {
+
+    height: 80%;
+
+    width: 15%;
+
+
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.profilenavbtn:hover {
+
+    border-bottom: 2px solid #1d9cf1cd;
+
+    color: #1d9cf1cd;
+
+}
+
+
+
+
+
+/* media queries for MOBILE */
+
+
+@media only screen and (max-width:480px) {
+
+    .profilesection {
+
+        height: 100%;
+
+        width: 100%;
+
+
+
+    }
+
+    .userinfosection {
+
+        height: 60%;
+
+        width: 100%;
+
+
+
+    }
+
+    .userinfodiv1 {
+
+        height: 50%;
+
+        width: 100%;
+
+
+
+    }
+
+    .userinfodiv2 {
+
+        height: 50%;
+
+        width: 100%;
+
+
+
+    }
+
+    .userfollowinfo {
+
+        height: 80%;
+
+        width: 30%;
+
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+        font-size: 70%;
+
+
+    }
+
+    .bio {
+
+        height: 50%;
+
+        width: 100%;
+
+        margin-left: 3%;
+
+    }
+
+    .userinfodiv2headbuttons1 {
+
+        margin-left: 3%;
+
+    }
+
+    .profilenav {
+
+        height: 5%;
+
+        width: 100%;
+
+        border-top: 0.5px solid #1d9cf1cd;
+
+        display: flex;
+
+        justify-content: space-between;
+
+        align-items: center;
+        
+          
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries for tAB */
+
+
+
+
+@media only screen and (min-width : 426px) and (max-width:1024px) {
+
+    .profilesection {
+
+        height: 100%;
+
+        width: 70%;
+
+
+
+    }
+
+    .userfollowinfo {
+
+        height: 80%;
+
+        width: 30%;
+
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+        font-size: 70%;
+
+
+    }
+
+}
